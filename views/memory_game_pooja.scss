@@ -19,18 +19,17 @@ body {
   text-align: center;
 }
 
+.board {
+  width: 80%;
+  margin: auto;
+}
+
 .row {
   margin: 0 auto;
 }
 
 .col6 {
   display: inline-block;
-}
-
-h1 {
-  color: white;
-  font-weight: 900;
-  font-size: 40px;
 }
 
 .card {
@@ -56,22 +55,19 @@ h1 {
     display: none;
   }
 
-  .color {
-    display: none; /* hide color */
-    font-size: 14.5px;
+  .color, .category, .value {
+    display: none;
   }
 
 }
 
+h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+}
+
 .button {
   cursor: pointer;
-}
-
-.button h2 {
   color: white;
-}
-
-.board {
-  width: 80%;
-  margin: auto;
 }

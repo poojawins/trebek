@@ -1,16 +1,16 @@
 $(document).ready(function(){
   var $card = $("div.card");
   var$button = $(".button");
-  
+
   $card.on("click", function(){
     var $this = $(this);
-    var chosen;
+    var $chosen;
 
     $this.toggleClass("chosen");
     $chosen = $(".chosen");
 
     if($chosen.length === 2) {
-      
+
     }
     
     if(!$this.hasClass("played") && !$this.hasClass("disabled")) {
@@ -22,8 +22,7 @@ $(document).ready(function(){
       });
     });
   });
+
+  
 });
 
-  // $button.on("click", function(){
-  //   location.reload();
-  // });
