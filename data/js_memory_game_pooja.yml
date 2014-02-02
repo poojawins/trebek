@@ -13,7 +13,7 @@
 - value: 4
   color: green
   category: dog4
-  pic: /img/tan_puppy.jpeg
+  pic: /img/corgi_puppy.jpg
 - value: 5
   color: blue
   category: dog5
@@ -37,7 +37,7 @@
 - value: 10
   color: green
   category: dog4
-  pic: /img/tan_puppy.jpeg
+  pic: /img/corgi_puppy.jpg
 - value: 11
   color: blue
   category: dog5
