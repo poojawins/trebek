@@ -5,10 +5,10 @@ $(document).ready(function(){
   $card.on("click", function(){
     var $this = $(this);
     var $chosen;
-
-    $this.toggleClass("chosen");
+    
     $chosen = $(".chosen");
-
+    $this.toggleClass("chosen");
+    
     if($chosen.length === 2) {
 
     }
