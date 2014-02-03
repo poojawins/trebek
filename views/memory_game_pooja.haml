@@ -1,7 +1,7 @@
 %h1 Memory Game
 
 .board
-  - @cards.each_slice(4) do |slice|
+  - @cards.shuffle.each_slice(4) do |slice|
     .row
       - slice.each do |card|
         = partial :card_memory_game_pooja, @card=card

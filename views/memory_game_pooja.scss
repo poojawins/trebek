@@ -56,13 +56,9 @@ body {
   }
 
   &.played {
-    border: 2.5px solid gray;
-    background: gray;
-  }
-
-  &.disabled {
     display: none;
   }
+
 }
 
 h1 {
