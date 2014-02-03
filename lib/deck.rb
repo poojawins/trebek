@@ -6,6 +6,7 @@ class Deck
   def initialize(path)
     @cards = []
     data = YAML::load(File.open(path))
+    data += data
     data.each do |card_data|
       @cards << Card.new(card_data)
     end
