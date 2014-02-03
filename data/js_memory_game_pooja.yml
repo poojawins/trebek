@@ -1,36 +1,36 @@
 - value: 1
-  category: dog1
+  defaultpic: /img/heart.jpeg
   pic: /img/white_paw_puppy.jpg
 - value: 2
-  category: dog2
+  defaultpic: /img/heart.jpeg
   pic: /img/bulldog_puppy.jpg
 - value: 3
-  category: dog3
+  defaultpic: /img/heart.jpeg
   pic: /img/fluffy_white_puppy.png
 - value: 4
-  category: dog4
+  defaultpic: /img/heart.jpeg
   pic: /img/corgi_puppy.jpg
 - value: 5
-  category: dog5
+  defaultpic: /img/heart.jpeg
   pic: /img/water_puppy.jpg
 - value: 6
-  category: dog6
+  defaultpic: /img/heart.jpeg
   pic: /img/pomsky_puppy.jpg
 - value: 1
-  category: dog1
+  defaultpic: /img/heart.jpeg
   pic: /img/white_paw_puppy.jpg
 - value: 2
-  category: dog2
+  defaultpic: /img/heart.jpeg
   pic: /img/bulldog_puppy.jpg
 - value: 3
-  category: dog3
+  defaultpic: /img/heart.jpeg
   pic: /img/fluffy_white_puppy.png
 - value: 4
-  category: dog4
+  defaultpic: /img/heart.jpeg
   pic: /img/corgi_puppy.jpg
 - value: 5
-  category: dog5
+  defaultpic: /img/heart.jpeg
   pic: /img/water_puppy.jpg
 - value: 6
-  category: dog6
+  defaultpic: /img/heart.jpeg
   pic: /img/pomsky_puppy.jpg
