@@ -20,7 +20,7 @@ body {
 }
 
 .board {
-  width: 80%;
+  width: 95%;
   margin: auto;
 }
 
@@ -56,9 +56,12 @@ body {
   }
 
   &.played {
-    display: none;
+    background-color: grey;
   }
 
+  &.disabled {
+
+  }
 }
 
 h1 {
