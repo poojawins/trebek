@@ -27,7 +27,6 @@ $(document).ready(function(){
       } else{
         $chosen.find(".picture").addClass("hide");
         $chosen.find(".defaultpic").removeClass("hide");
-        $card.find(".disabled").removeClass("disabled");
         $chosen.removeClass("chosen");
       }
     }
