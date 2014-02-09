@@ -4,16 +4,16 @@ $(document).ready(function(){
 
   $card.on("click", function(){
     var $this = $(this);
-    var $chosen;
-    var $thiscounter = 0;
+    var $chosen = $(".chosen");
     
     if(!$this.hasClass("played") && !$this.hasClass("disabled")) {
       if(!$this.hasClass("chosen")) {
-        $this.addClass("chosen");
-        $chosen = $(".chosen");
-        $this.find(".picture").removeClass("hide").fadeIn();
-        $this.find(".defaultpic").addClass("hide").fadeOut();
-        setTimeout(checkCards, 2000);
+        if ($chosen.length < 2) {
+          $this.addClass("chosen");
+          $this.find(".picture").removeClass("hide").fadeIn();
+          $this.find(".defaultpic").addClass("hide").fadeOut();
+          setTimeout(checkCards, 2000);
+        }
       }
     }
   });
